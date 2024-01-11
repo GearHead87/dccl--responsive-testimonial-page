@@ -1,0 +1,98 @@
+html{
+    font-family: 'Sora', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: azure;
+    padding: 5rem 0;
+}
+
+.body{
+    width: 35rem;
+    /* min-width: 15rem; */
+    display: flex;
+    flex-direction:column;
+    padding: 2rem;
+    /* border: 2px solid red; */
+}
+
+
+.reviewer img{
+    background-color: yellow;
+    border-radius: 100%;
+    padding: 0.2rem;
+    transform: scale(1.5);    
+}
+
+.reviewer h2{
+    font-size: 2.25rem;
+    margin: 1rem 0;
+}
+
+.reviewer p{
+    font-size: 1.25rem;
+}
+
+.checklist{
+    display: flex;
+    flex-direction: column;
+}
+.checklist div{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.checklist div p{
+    font-size: 0.875rem;
+}
+
+/* Testimonial Section */
+
+.testimonial{
+    /* display: relative; */
+    border: 2px solid red;
+}
+
+.testimonial-google{
+    height: 7rem;
+    width: 20rem;
+    margin: 4rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    position: relative;
+    left: 4rem;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.heading > img{
+    width: 6rem;
+}
+
+.testimonial-meta{
+    height: 7rem;
+    width: 20rem;
+    margin: 4rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    position: relative;
+    left: -4rem;
+}
+
+@media only screen and (max-width: 768px ) {
+    main{
+        flex-direction: column;
+    }
+}
+
+
+
